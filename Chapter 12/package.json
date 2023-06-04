@@ -1,0 +1,30 @@
+{
+  "name": "@packt/accelerating-server-side-development-with-fastifychapter-12",
+  "version": "1.0.0",
+  "description": "Accelerating Server Side Development with Fastify - chapter 12, published by Packt",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "contributors": [
+    "Manuel Spigolon <behemoth89@gmail.com> (https://github.com/Eomm)",
+    "Maksim Sinik <maksim.sinik@gmail.com> (https://github.com/fox1t)",
+    "Matteo Collina <hello@matteocollina.com> (https://github.com/mcollina)"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PacktPublishing/Accelerating-Server-Side-Development-with-Fastify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PacktPublishing/Accelerating-Server-Side-Development-with-Fastify/issues"
+  },
+  "homepage": "https://github.com/PacktPublishing/Accelerating-Server-Side-Development-with-Fastify#readme",
+  "dependencies": {
+    "@fastify/autoload": "^5.4.1",
+    "fastify": "^4.8.1",
+    "fastify-plugin": "^4.2.1",
+    "undici": "^5.11.0"
+  }
+}

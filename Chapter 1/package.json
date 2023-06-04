@@ -1,0 +1,40 @@
+{
+  "name": "@packt/accelerating-server-side-development-with-fastify-chapter-1",
+  "version": "1.0.0",
+  "description": "Accelerating Server Side Development with Fastify - chapter 1, published by Packt",
+  "private": true,
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "lint:fix": "standard --fix",
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PacktPublishing/Accelerating-Server-Side-Development-with-Fastify.git"
+  },
+  "engines": {
+    "node": "^18.0.0"
+  },
+  "keywords": [],
+  "contributors": [
+    "Manuel Spigolon <behemoth89@gmail.com> (https://github.com/Eomm)",
+    "Maksim Sinik <maksim.sinik@gmail.com> (https://github.com/fox1t)",
+    "Matteo Collina <hello@matteocollina.com> (https://github.com/mcollina)"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PacktPublishing/Accelerating-Server-Side-Development-with-Fastify/issues"
+  },
+  "homepage": "https://github.com/PacktPublishing/Accelerating-Server-Side-Development-with-Fastify#readme",
+  "dependencies": {
+    "fastify": "^4.0.3",
+    "old": "npm:fastify@^3.29.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "pino-pretty": "^8.0.0",
+    "standard": "^16.0.3"
+  }
+}
