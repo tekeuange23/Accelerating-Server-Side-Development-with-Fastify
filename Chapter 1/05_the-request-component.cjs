@@ -48,12 +48,18 @@ function xRay (request, reply) {
 }
 
 app.get('/log', function log (request, reply) {
-  request.log.info('hello') // [1]
+  request.log.info('hello')           // [1]
   request.log.info('world')
-  reply.log.info('late to the party') // same as request.log
 
-  app.log.info('unrelated') // [2]
-  reply.send()
+  console.log("3/5")
+
+  reply.log.info('late to the party') // same as request.log
+  app.log.info('unrelated')           // [2]
+  
+  app.log.warn('warning')           // [2]
+  app.log.error('error')           // [2]
+
+  reply.send({replyStatus: "Send!"})
 })
 
 app.listen({
