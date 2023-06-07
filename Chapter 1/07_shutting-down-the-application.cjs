@@ -22,8 +22,8 @@ process.once('SIGINT', function closeApplication () {
 
 app.listen({
   port: 8080,
-  host: '0.0.0.0'
+  host: '127.0.0.1'
 })
-  .then((address) => {
-    // Server is now listening on ${address}
-  })
+.then((address) => {
+  // Server is now listening on ${address}
+})

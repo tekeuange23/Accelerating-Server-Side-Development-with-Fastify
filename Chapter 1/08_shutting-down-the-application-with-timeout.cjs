@@ -31,6 +31,6 @@ app.listen({
   port: 8080,
   host: '0.0.0.0'
 })
-  .then((address) => {
-    // Server is now listening on ${address}
-  })
+.then((address) => {
+  // Server is now listening on ${address}
+})

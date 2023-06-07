@@ -15,7 +15,7 @@ async function start () {
   await app.listen(config.serverOptions.listen)
 
   async function staticConfigLoader (env) {
-    return { // [4]
+    return { // [4] (all the possible config-options for our fastify app)
       env,
       serverOptions: getServerConfig(),
       pluginOptions: {},
